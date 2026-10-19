@@ -1,6 +1,7 @@
 # Get-SitesSelectedAppGrants
 
 What the script does
+
 Signs in app-only with a certificate (recommended) or a client secret. It stops if the session isn't app-only.
 Finds the Sites.Selected permission IDs by reading them from the Microsoft Graph and SharePoint Online service principals in the tenant, rather than hard-coding them.
 Finds the app registrations whose API permissions include Sites.Selected, from Graph, SharePoint or both, application or delegated. For each one it checks whether admin consent was actually granted.
