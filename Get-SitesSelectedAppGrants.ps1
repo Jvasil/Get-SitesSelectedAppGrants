@@ -87,6 +87,10 @@
         Install-Module Microsoft.Graph.Authentication -Scope CurrentUser
     Only the Authentication module is needed; all calls use Invoke-MgGraphRequest.
     Read-only: the script makes no changes to the tenant.
+
+.Author
+    Joseph Vasil and Copilot Cowork
+
 #>
 
 [CmdletBinding()]
